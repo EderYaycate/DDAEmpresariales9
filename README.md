@@ -107,3 +107,9 @@ Las pruebas se ejecutan en jsdom (un navegador simulado) con Vitest y Testing Li
 ## Convenciones del curso
 
 Código, nombres y comentarios en inglés; explicaciones y entregables en español.
+
+## Entregable del equipo
+
+Las tablas del laboratorio (el duelo, la clasificación de los seis fallos, los arreglos y la
+explicación de los datos de terceros) están en [`EVIDENCIAS.md`](EVIDENCIAS.md). La prueba de la
+aplicación completa con datos de terceros está en `src/App.test.jsx`.

@@ -1,4 +1,5 @@
 export default function Synopsis({ text }) {
-  const html = text.replace(/\n/g, "<br />");
-  return <p className="synopsis" dangerouslySetInnerHTML={{ __html: html }} />;
+  // {text} is escaped by React: markup in a third party's text stays text.
+  // The CSS rule `white-space: pre-line` already keeps the line breaks.
+  return <p className="synopsis">{text}</p>;
 }
